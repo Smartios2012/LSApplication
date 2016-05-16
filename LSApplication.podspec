@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LSApplication"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "Get all app info."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "Classes/*.h"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "AFNetworking/LSApplicationProxy.h","AFNetworking/LSApplicationWorkspace.h"
+  s.public_header_files = "Classes/LSApplicationProxy.h","Classes/LSApplicationWorkspace.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
