@@ -1,1 +1,0 @@
-../../../LSApplication/Classes/LSResourceProxy.h
