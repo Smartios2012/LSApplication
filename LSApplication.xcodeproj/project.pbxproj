@@ -26,7 +26,7 @@
 		AEC09D2E1CE9D7FC00D5A5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEC09D311CE9D7FC00D5A5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEC09D331CE9D7FC00D5A5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEC09D571CE9DE1700D5A5CC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		AEC09D571CE9DE1700D5A5CC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CDA251AE5EFC3FA02E702B19 /* Pods-LSApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSApplication/Pods-LSApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

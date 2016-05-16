@@ -11,10 +11,13 @@ import LSApplication
 
 class ViewController: UIViewController {
 
-    private var workspace:LSApplicationWorkspace!
+//    private var workspace:LSApplicationWorkspace!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
