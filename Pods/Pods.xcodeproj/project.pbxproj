@@ -10,11 +10,6 @@
 		24937815DD8F0803D8D17F1E9AE63424 /* Pods-LSApplication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CB19BE1046D7CF61381BD2A223B0C7 /* Pods-LSApplication-dummy.m */; };
 		50C6FE627D1E9375609374A450DF7E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		7584D18A5C07503C879D7B61394C559C /* Pods-LSApplication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8EC5901B3DDCB44F303EBE2FF51F12 /* Pods-LSApplication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA3AB491CEAC1D400B56A92 /* LSApplicationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F932484752845DAFC0CD92463D60DE /* LSApplicationProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA3AB4A1CEAC1D400B56A92 /* LSApplicationWorkspace.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F5E7D017E3C2A7BA84B23E669EAB68 /* LSApplicationWorkspace.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA3AB4B1CEAC1D400B56A92 /* LSBundleProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFB3880E576D27D822B99E25979936C /* LSBundleProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA3AB4C1CEAC1D400B56A92 /* LSResourceProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 29544636B4FB15C8E1FCBB6F3269FA80 /* LSResourceProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA3AB4E1CEAC27500B56A92 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3AB4D1CEAC27500B56A92 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +22,6 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A43C4BCF051829FB46AC2A45D53208A4 /* Pods-LSApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSApplication.release.xcconfig"; sourceTree = "<group>"; };
 		ADFB3880E576D27D822B99E25979936C /* LSBundleProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSBundleProxy.h; path = Classes/LSBundleProxy.h; sourceTree = "<group>"; };
-		AEA3AB4D1CEAC27500B56A92 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		B958917C96AE2F39F8D6E7E2D73D070D /* Pods-LSApplication-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSApplication-resources.sh"; sourceTree = "<group>"; };
 		BA510AD03617DF3B9A037C17F0379D27 /* Pods-LSApplication-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSApplication-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BD8EC5901B3DDCB44F303EBE2FF51F12 /* Pods-LSApplication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LSApplication-umbrella.h"; sourceTree = "<group>"; };
@@ -43,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA3AB4E1CEAC27500B56A92 /* MobileCoreServices.framework in Frameworks */,
 				50C6FE627D1E9375609374A450DF7E8E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,7 +101,6 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AEA3AB4D1CEAC27500B56A92 /* MobileCoreServices.framework */,
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
@@ -140,10 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7584D18A5C07503C879D7B61394C559C /* Pods-LSApplication-umbrella.h in Headers */,
-				AEA3AB491CEAC1D400B56A92 /* LSApplicationProxy.h in Headers */,
-				AEA3AB4A1CEAC1D400B56A92 /* LSApplicationWorkspace.h in Headers */,
-				AEA3AB4B1CEAC1D400B56A92 /* LSBundleProxy.h in Headers */,
-				AEA3AB4C1CEAC1D400B56A92 /* LSResourceProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
