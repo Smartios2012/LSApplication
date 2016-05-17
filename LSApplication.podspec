@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LSApplication"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Get all app info."
   s.description  = <<-DESC
                        Get Phone Apps , No attempt is not available through store app
@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/aimobier/LSApplication.git", :tag => "#{s.version}" }
   s.source_files = "Classes/*.h"
+  s.requires_arc = true
   s.frameworks   = "MobileCoreServices"
 end

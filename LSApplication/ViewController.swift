@@ -7,13 +7,22 @@
 //
 
 import UIKit
-import LSApplication
+import Pods_LSApplication
 
 class ViewController: UIViewController {
 
-//    private var workspace:LSApplicationWorkspace!
+    private var workspace:LSApplicationWorkspace!
+    
+    private var appInfoArray = [AppInfo]()
     
     override func viewDidLoad() {
+        
+        super.viewDidLoad()
+        
+        workspace = LSApplicationWorkspace.defaultWorkspace() as! LSApplicationWorkspace
+        
+        let allApplications = workspace.allApplications()
+        
         super.viewDidLoad()
         
         
