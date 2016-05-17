@@ -1,11 +1,11 @@
 PODS:
-  - LSApplication (0.0.7)
+  - LSApplication (0.0.8)
 
 DEPENDENCIES:
   - LSApplication
 
 SPEC CHECKSUMS:
-  LSApplication: 58f193703475d9f652df20422aaf747c180dcde2
+  LSApplication: b3675a6a689052bd01cf7e2ec3882fe115cb04cb
 
 PODFILE CHECKSUM: 6000aea7769b8e1ab68c93ace36a3389baba8448
 
