@@ -7,7 +7,7 @@ LSApplication is an access to all the current mobile phone application informati
 
 #### Installation with CocoaPods
 
-[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C and swift, which automates and simplifies the process of using 3rd-party libraries like PHImageKit.
+[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C and swift, which automates and simplifies the process of using 3rd-party libraries like LSApplication.
 
 ``` ruby
 source 'https://github.com/CocoaPods/Specs.git'
