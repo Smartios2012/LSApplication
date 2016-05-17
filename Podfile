@@ -2,6 +2,6 @@ platform :ios, '8.0'
 use_frameworks!
 
 
-target :'LSApplication' do
+target :’Example’ do
     pod 'LSApplication'
 end
